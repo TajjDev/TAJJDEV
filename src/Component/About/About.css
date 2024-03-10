@@ -1,0 +1,199 @@
+#about{
+    width: 100%;
+    display: flex;
+    font-size: 1.125em;
+    align-items: center;
+    margin-top: 83px;
+    background: url("./src/assets/bg.png");
+    justify-content: center;
+ }
+ #contain{
+    width:86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 54px 0 54px 0;
+ }
+ #abtText{
+    width: 45%;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(12, 24, 80);
+    line-height: 37.63px;
+ }
+ #pp{
+    margin-bottom: 20px;
+ }
+ p span{
+    font-size: 48px;
+    font-weight: 600;
+ }
+ #p2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.3px;
+    color: rgba(0, 0, 0, 0.7);
+
+ }
+ #p2 span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26.3px;
+ }
+ #abtImage{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+ }
+ #abtImage img{
+    width:100% ;
+    height: 100%;
+ }
+ #btn{
+    margin-top: 25px;
+    height: auto;
+ }
+ #btn a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 9px 18px 9px 18px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.2)  0px 2px 3px,rgba(0, 0, 0, 0.12) 0px 2px 1px,rgba(0, 0, 0, 0.14) 0px 1px 1px;
+ }
+ #btn1{
+    margin-right: 20px;
+    color: #fff;
+    background: rgba(232, 73, 73, 1);
+    border: 2px solid rgba(232, 73, 73, 1);
+ }
+ #btn2{
+    margin-right: 0;
+    color: rgb(12, 24, 80);
+    border: 2px solid rgba(232, 73, 73, 1);
+ } 
+ #btn1:hover{
+    background: none;
+    border: 2px solid rgba(232, 73, 73, 1);
+    color:rgb(12, 24, 80);
+ }#btn2:hover{
+    color: #fff;
+    background: rgba(232, 73, 73, 1);
+ }
+ @media screen and (max-width:1190px) {
+    #about{
+        margin-top: 71px;
+     }
+     #contain{
+        width: 86%;
+        margin: 50px 0 50px 0;
+     }
+     #abtText{
+        font-size: 25px;
+        line-height: 26.63px;
+        width: 50%;
+     }
+     
+
+     
+ #pp{
+    margin-bottom: 18px;
+ }
+     p span{
+        font-size: 35px;
+        line-height: 36.45px;
+     }
+     #p2{
+        font-size: 14px;
+        line-height: 18.3px;
+    
+     }
+     #p2 span{
+        font-size: 14px;
+        line-height: 20.3px;
+     }
+     #btn{
+        margin-top: 22px;
+     }
+     #btn a{
+        font-size: 15px;
+        padding:6px 15px 6px 15px;
+     }
+ }
+ @media screen and (max-width:920px) {
+    #about{
+        margin-top: 65px;
+     }
+     #contain{
+        width: 86%;
+        margin: 46px 0 46px 0;
+     }
+     #abtText{
+        font-size: 22px;
+        line-height: 26.63px;
+        width: 52%;
+     }
+     #pp{
+        margin-bottom: 16px;
+     }
+     p span{
+        font-size: 29px;
+        line-height: 30.45px;
+     }
+     #p2{
+        font-size: 12px;
+        line-height: 16.3px;
+    
+     }
+     #p2 span{
+        font-size: 12px;
+        line-height: 16.3px;
+     }
+     #btn{
+        margin-top: 20px;
+     }
+     #btn a{
+        font-size: 12px;
+        padding: 5px 12px 5px 12px;
+        font-size: 12px;
+     }
+ }
+ @media screen and (max-width:768px) {
+    #about{
+        margin-top: 59px;
+     }
+     #contain{
+        width: 86%;
+        margin: 40px 0 40px 0;
+     }
+     #abtText{
+        width: 55%;
+        font-size: 22px;
+        line-height: 26.63px;
+     }
+     #pp{
+        margin-bottom: 16px;
+     }
+     p span{
+        font-size: 27px;
+        line-height: 30.45px;
+     }
+     #p2{
+        font-size: 11px;
+        line-height: 16.3px;
+    
+     }
+     #p2 span{
+        font-size: 11px;
+        line-height: 16.3px;
+     }
+     #btn{
+        margin-top: 15px;
+     }
+     #btn a{
+        font-size: 11px;
+        padding: 5px 10px 5px 10px;
+        font-size: 10px;
+     }
+ }

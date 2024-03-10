@@ -1,0 +1,68 @@
+#skill{
+    width: 100%;
+    display: flex;
+    font-size: 1.125em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgba(232, 73, 73, 1);
+    font-size: 20px;
+    font-weight: 800;
+ }
+ #containS{
+    width:86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 54px 0 54px 0;
+ }
+ #skillImg{
+    width: 45%;
+ }
+ #skillImg img{
+    width:100% ;
+    height: 100%;
+ }
+ #SkiImage{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+ }
+ 
+ #SkiImage img{
+    width:100% ;
+    height: 100%;
+ }
+ @media screen and (max-width:1190px) {
+    #skill{
+        font-size: 17px;
+     }
+     #containS{
+        width: 86%;
+        margin: 50px 0 50px 0;
+     }
+     
+ }
+ 
+ @media screen and (max-width:920px) {
+    #skill{
+        font-size: 15px;
+     }
+    #containS{
+       width: 86%;
+       margin: 46px 0 46px 0;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    #skill{
+        font-size: 13px;
+     }
+    #containS{
+       width: 86%;
+       margin: 40px 0 40px 0;
+    }
+    
+}

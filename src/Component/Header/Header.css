@@ -1,0 +1,122 @@
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FCFCFC;
+    font-size: 1.125em;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.2)  0px 1px 3px,rgba(0, 0, 0, 0.12) 0px 2px 1px,rgba(0, 0, 0, 0.14) 0px 1px 1px;
+}
+#nav span a{
+    align-items: center;
+}
+#containHead{
+    width: 86%;
+    padding: 24px 0 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: auto;
+}
+#logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+}
+#logo img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+#link{
+    height: 26px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#link a{
+    text-decoration: none;
+    color: #000;
+    /* padding-left: 20px; */
+}
+#link a:hover{
+    text-decoration: 3px solid rgba(232, 73, 73, 1) underline;
+}
+#link  a{
+    height: 26px;
+    display: flex;
+    justify-content: center;
+}
+#link #im a{
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#link img{
+    width: 24px;
+    height: 19.94px;
+    margin-right: 10px;
+}
+@media screen and (max-width:1187px) {
+    #nav{
+        font-size: 15px;
+    }
+    #containHead{
+        width: 86%;
+        padding: 18px 0 18px 0;
+    }
+    #logo a{
+        font-size: 18px;
+    }
+    #link img{
+        width: 20px;
+        height: 16.94px;
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width:920px) {
+    #nav{
+        font-size: 12px;
+    }
+    #containHead{
+        width: 86%;
+        padding: 15px 0 15px 0;
+    }
+    #logo a{
+        font-size: 15px;
+    }
+    #link img{
+        width: 18px;
+        height: 14.94px;
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #nav{
+        font-size: 10px;
+    }
+    #containHead{
+        width: 86%;
+        padding: 12px 0 12px 0;
+    }
+    #logo a{
+        font-size: 13px;
+    }
+    #link img{
+        width: 16px;
+        height: 12.94px;
+        margin-right: 4px;
+    }
+}
