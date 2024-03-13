@@ -3,9 +3,14 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Be Vietnam";
+
 }
 body{
   width: 100%;
+  background: url("./src/assets/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 html{
   scroll-behavior: smooth;

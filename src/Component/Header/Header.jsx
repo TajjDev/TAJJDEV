@@ -14,7 +14,7 @@ export default function Nav(){
                 <span><a id="do" href="#skill">Skills</a></span>
                 <span id="im"><a  href="#Project"><img src={"./src/assets/Group.svg"} alt="" />Projects</a></span>
                 <span><a href="#">Certificates</a></span>
-                <span><a href="#">Contact</a></span>
+                <span><a href="#contact">Contact</a></span>
             </div>
             </div>
         </div>
