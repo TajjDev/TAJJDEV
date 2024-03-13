@@ -33,11 +33,14 @@
  }
  #ContactInput{
     width: 50%;
+ }
+ #inp{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
  }
-#ContactInput input{
+#inp input{
     width: 100%;
     padding: 0 0 0 20px;
     height: 53px;
@@ -47,7 +50,7 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14);
     
  }
-#ContactInput textarea{
+#inp textarea{
     border: 1px solid rgba(0, 0, 0, 0.25);
     height: 158px;
     padding: 20px 0 0 20px;
@@ -58,11 +61,26 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14);
 
  }
- button{
+ #inp button{
     height: 50px;
-    width: 40%;
+    width: 35%;
     background: rgba(52, 61, 104, 1);
     border-radius: 5px;
     border: none;
     color: #fff;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 300;
+
+ }
+ #inp button img{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+ }
+ #inp button:hover{
+    background-color: rgba(62, 71, 130, 1);
  }

@@ -11,11 +11,11 @@ export default function Contact(){
                     <img src={"./src/assets/contact.svg"} alt="" />
                 </div>
                 <div id="ContactInput">
-                    <div id="inp">
-                        <input type="email" name="" required placeholder="Enter e-mail address" id="email" />
-                        <textarea name="message" required id="" cols="30" placeholder="Enter message..." rows="10"></textarea>
-                        <button>Send Message <img src="message.svg" alt="" /></button>
-                    </div>
+                    <form id="inp">
+                        <input type="email" required placeholder="Enter e-mail address*" id="email" />
+                        <textarea required id="" cols="30" placeholder="Enter message*" rows="10"></textarea>
+                        <button  type="submit">Send Message <img src={"./src/assets/message.svg"} alt="" /></button>
+                    </form>
                 </div>
             </div>
         </div>
