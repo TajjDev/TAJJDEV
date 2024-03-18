@@ -84,3 +84,7 @@
  #inp button:hover{
     background-color: rgba(62, 71, 130, 1);
  }
+button:focus,
+button:focus-visible {
+  outline: 474px auto -webkit-focus-ring-color;
+}
