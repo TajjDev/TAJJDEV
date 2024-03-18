@@ -1,5 +1,6 @@
 import React from "react";
 import "./Project.css"
+import Arrow from "/src/assets/Arrow.svg" 
 
 export default function Pro({src,text,href}){
     return(
@@ -10,7 +11,7 @@ export default function Pro({src,text,href}){
             </div>
             <div className="txt">
                 <p> {text}</p>
-                <a target="top" href={href}>Learn More <img src="./src/assets/Arrow.svg" alt="" /></a>
+                <a target="top" href={href}>Learn More <img src={Arrow} alt="" /></a>
             </div>
         </div>
         </>
