@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css"
 import Hi from "/src/assets/hi.png"
 import Profile from "/src/assets/profile.svg"
+import Cv from "/src/assets/Tajudeen-Khabab_cv.pdf"
 
 export default function About(){
     return(
@@ -17,7 +18,7 @@ export default function About(){
                     </p>
                     <div id="btn">
                         <a id="btn1" href="#">Hire Me</a>
-                        <a id="btn2" target="parent"  href='./src/assets/Tajudeen-Khabab_cv.pdf'>Download my CV</a>
+                        <a id="btn2" target="parent"  href={Cv} >Download my CV</a>
                     </div>
                 </div>
                 <div id="abtImage">
